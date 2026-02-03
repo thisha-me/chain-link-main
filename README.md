@@ -24,6 +24,16 @@ If you have already cloned the repository without submodules:
 git submodule update --init --recursive
 ```
 
+## Updating Submodules
+
+To update the submodules to their latest commits:
+
+```bash
+git submodule update --remote --merge
+```
+
+This will fetch the latest changes from the remote repositories and merge them into your local submodules. After updating, remember to commit the changes to the main repository to lock in the new submodule commits.
+
 ## Running the Project
 
 Please refer to the README files in each submodule for specific instructions on how to run them.
