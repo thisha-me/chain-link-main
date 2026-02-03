@@ -15,7 +15,7 @@ The project is organized into three main submodules:
 To clone the repository with all submodules:
 
 ```bash
-git clone --recursive <repository-url>
+git clone --recursive https://github.com/thisha-me/chain-link-main.git
 ```
 
 If you have already cloned the repository without submodules:
@@ -30,9 +30,12 @@ To update the submodules to their latest commits:
 
 ```bash
 git submodule update --remote --merge
+git add .
+git commit -m "Update all submodules"
+git push
 ```
 
-This will fetch the latest changes from the remote repositories and merge them into your local submodules. After updating, remember to commit the changes to the main repository to lock in the new submodule commits.
+This will fetch the latest changes from the remote repositories and merge them into your local submodules, then commit and push the changes to the main repository.
 
 ## Running the Project
 
