@@ -6,8 +6,8 @@ This is the main repository for the Chain Link project, orchestrating the smart 
 
 The project is organized into three main submodules:
 
-- **`contract/`**: Contains the Solidity smart contracts.
-- **`server/`**: Contains the backend server implementation.
+- **[`contract`](https://github.com/thisha-me/chain-link-contract)**: Contains the Solidity smart contracts.
+- **[`server`](https://github.com/thisha-me/chain-link-server)**: Contains the backend server implementation.
 - **`client/`** (TBD): Contains the frontend client application.
 
 ## Setup
