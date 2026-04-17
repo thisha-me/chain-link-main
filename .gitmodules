@@ -4,3 +4,6 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/thisha-me/chain-link-server.git
+[submodule "fabric"]
+	path = fabric
+	url = https://github.com/thisha-me/chain-link-fabric.git
